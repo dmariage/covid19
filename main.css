@@ -1,0 +1,27 @@
+div.list-group a:hover {background-color: #CECECE;}
+div.list-group a:hover h5.mb-1 {color: #000191;}
+div.list-group a:hover small {color: #e1000f;}
+
+a.reason {display: inline-block; 
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    padding: 5px; color: #000191;}
+a.reason:hover {color: #e1000f; cursor: pointer;}
+a.reason-selected {background-color: #CECECE !important;}
+
+@media (max-width: 420px) {
+    a.reason { width: 88px; height: 88px; }
+    .fa-5x { font-size: 4em !important; }
+    .btn-attestation { margin-bottom: 2px;}
+}
+
+@media (max-width: 360px) {
+    a.reason { width: 70px; height: 60px; }
+    .fa-5x { font-size: 3em !important; }
+    .user-data span.titre-2 {font-size: 1.0rem;}
+    .user-data span.titre-3 {font-size: 0.75rem;}
+    .btn-attestation { font-size: 0.75em;
+    min-width: 99px;
+    margin-bottom: 2px; }
+}
